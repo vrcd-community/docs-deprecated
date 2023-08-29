@@ -34,11 +34,22 @@ export function officialCreatorDocsSidebar(): DefaultTheme.SidebarItem[] {
   return [
     { text: '欢迎', link: '/official-creator-docs/getting-started' },
     {
+      text: '安装 SDK',
+      link: '/official-creator-docs/sdk/',
+      collapsed: true,
+      items: [
+        { text: '当前支持的 Unity 版本', link: '/official-creator-docs/sdk/current-unity-version' },
+        { text: '迁移到更新的 Unity 大版本', link: '/official-creator-docs/sdk/migrating-to-a-newer-minor-unity-version' },
+        { text: 'SDK 疑难解答', link: '/official-creator-docs/sdk/sdk-troubleshooting' },
+        { text: '升级 SDK', link: '/official-creator-docs/sdk/updating-the-sdk' }
+      ]
+    },
+    {
       text: '化身',
       link: '/official-creator-docs/avatars/',
       collapsed: true,
       items: [
-        { text: '制作您的第一个化身', link: '/official-creator-docs/avatars/creating-your-first-avatar.md' }
+        { text: '制作您的第一个化身', link: '/official-creator-docs/avatars/creating-your-first-avatar' }
       ]
     },
     {

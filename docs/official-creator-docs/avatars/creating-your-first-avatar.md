@@ -95,9 +95,11 @@ VRoid Studio 以 .vrm 格式输出形象，Unity 本身并不支持该格式！�
 点击 `Auto Detect!` 通常足以让您的 VRChat 化身对你的语音做出反应。点击 `Auto Detect!` 让 VRChat SDK 自动检测适合的口型同步模式。然后将模式切换到以下模式之一。
 
 #### Jaw Flap Bone
+
 如果您的头像使用单个骨骼来为下颌设置动画，您可以在选择该项。你的角色的下巴会张开，这取决于您在 VRChat 中说话声音的大小。请确保您已在 Unity 的 Humanoid Rig 中为您的头像配置了颚部骨骼。
 
 #### Viseme Blend Shape (推荐)
+
 Blend shapes/shape keys（根据您使用的软件命名）根据顶点位置修改网格。许多模型将其用于详细口型动画。如果您的模型具有这些，则应使用它们！
 
 我们使用 Oculus 音频库来检测和设置口型。[您可以在此处看到对所有口型的外观以及触发它们的声音的引用](https://developer.oculus.com/documentation/unity/audio-ovrlipsync-viseme-reference)。
