@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { beginnerSidebar, advanceSidebar, officialCreatorDocsSidebar, contributorSidebar } from './sidebars'
 
 export default defineConfig({
   title: "VRCD",
@@ -65,77 +66,15 @@ export default defineConfig({
     nav: [
       { text: '入门', link: '/beginner/' },
       { text: '进阶', link: '/advance/' },
+      { text: '贡献', link: '/contributor/' },
       { text: '官方创作者文档翻译', link: '/official-creator-docs/getting-started' }
     ],
 
     sidebar: {
-      "/beginner": [
-        { text: '新手引导', link: '/beginner/' },
-        { text: '萌新入坑指南', link: '/beginner/getting-started' },
-        {
-          text: '人话说明书', link: '/beginner/worlds/', collapsed: true, items: [
-            { text: '世界', link: '/beginner/worlds/index' }
-          ]
-        },
-        {
-          text: '基础组件包', link: '/beginner/worlds/', collapsed: true, items: [
-            { text: '世界', link: '/beginner/worlds/index' }
-          ]
-        },
-      ],
-      "/advance": [
-        { text: '进阶', link: '/advance/' }
-      ],
-      "/official-creator-docs": [
-        { text: '欢迎', link: '/official-creator-docs/getting-started' },
-        {
-          text: '虚拟形象',
-          link: '/official-creator-docs/avatars/',
-          collapsed: true,
-          items: [
-            { text: '制作您的第一个虚拟形象', link: '/official-creator-docs/avatars/creating-your-first-avatar.md' }
-          ]
-        },
-        {
-          text: '世界',
-          link: '/official-creator-docs/worlds/',
-          collapsed: true,
-          items: [
-            { text: '制作您的第一个世界', link: '/official-creator-docs/worlds/creating-your-first-world' },
-            {
-              text: 'Udon',
-              link: '/official-creator-docs/worlds/udon/',
-              collapsed: true,
-              items: [
-                {
-                  text: '网络',
-                  link: '/official-creator-docs/worlds/udon/networking/',
-                  collapsed: true,
-                  items: [
-                  ]
-                },
-              ]
-            },
-          ]
-        },
-        {
-          text: '平台特异',
-          link: '/official-creator-docs/platforms/',
-          collapsed: true,
-          items: [
-            {
-              text: '安卓',
-              collapsed: true, link: '/official-creator-docs/platforms/android/',
-              items: [
-                {
-                  text: '为 Unity 设置 Quest 内容开发环境',
-                  link: '/official-creator-docs/platforms/android/'
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "/beginner": beginnerSidebar(),
+      "/advance": advanceSidebar(),
+      "/official-creator-docs": officialCreatorDocsSidebar(),
+      '/contributor': contributorSidebar()
     },
 
     socialLinks: [
