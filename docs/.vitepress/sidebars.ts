@@ -34,11 +34,11 @@ export function officialCreatorDocsSidebar(): DefaultTheme.SidebarItem[] {
   return [
     { text: '欢迎', link: '/official-creator-docs/getting-started' },
     {
-      text: '虚拟形象',
+      text: '化身',
       link: '/official-creator-docs/avatars/',
       collapsed: true,
       items: [
-        { text: '制作您的第一个虚拟形象', link: '/official-creator-docs/avatars/creating-your-first-avatar.md' }
+        { text: '制作您的第一个化身', link: '/official-creator-docs/avatars/creating-your-first-avatar.md' }
       ]
     },
     {
