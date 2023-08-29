@@ -1,5 +1,5 @@
 # Udon 网络
-::: info
+::: info 总览
 多人游戏体验是 VRChat 的核心，所以创建一个可以和玩家互动并在玩家间同步数据的世界是创建世界的金科玉律。
 
 这个页面介绍了驱动我们的网络系统的概念。当你理解了这些基础内容，你就可以深入了解以下内容了：
@@ -97,7 +97,7 @@ Udon Graph 里的变量（Variables）设置
 
 我们将以上三个示例都包括在了一个简单的包里，你可以将其导入到任何安装了 Udon SDK 的项目里来查看实际运行效果和源代码。
 
-::: info
+::: info 更多细节
 第一节是 Udon 网络系统的大致介绍。当你认为你可以理解这些概念并且浏览了上方的示例包，你可以在下方了解网络系统的各个方面。
 :::
 
@@ -119,8 +119,7 @@ Udon Graph 里的变量（Variables）设置
 
 使用自定义网络事件来触发当前实例内所有玩家或对象所有者的事件，事件一定会被触发，但是会有一定的延迟和开销。在事件发送后加入的玩家不会收到事件。[使用自定义事件](/official-creator-docs/worlds/udon/networking/#使用自定义事件)小节来了解更多信息。
 
-::: info
-译者注：简单来说就是：
+::: info 译者注：简单来说就是
 - 可靠性：自定义网络事件（Custom Network Events）> 手动同步变量（Manual Variable）> 连续同步变量（Continuous Variable）
 - 及时性：连续同步变量（Continuous Variable）> 手动同步变量（Manual Variable）> 自定义网络事件（Custom Network Events）
 :::
@@ -159,8 +158,7 @@ Udon Graph 里的变量（Variables）设置
 
 ![](/img/worlds/ownership-transfer.svg)
 ## 使用变量（Variables）
-::: info
-使用变量来同步数据可以分为三步
+::: info 使用变量来同步数据可以分为三步
 1. 创建一个变量
 2. 在所有者那里更新这个成量
 3. 对从所有者那里接收到的值进行处理
@@ -184,20 +182,17 @@ Udon Graph 里的变量（Variables）设置
 
 该节点在手动同步模式下用于标记目标 UdonBehaviour 上的变量，以便在下一个网络刻（并非每帧都会发生）期间进行序列化。该节点将与 OnPreSerialization 事件节点协同工作。在触发 "RequestSerialization" 事件后，OnPreSerialization 事件将在下一个网络刻期间触发。此时，您可以将任何变量更新为您希望同步的值。
 
-::: info
-#### 变量同步
+::: info 变量同步
 您可以同步以下类型的变量和变量数组：bool、char、byte、sbyte、short、ushort、int、uint、long、ulong、float、double、Vector2、Vector3、Vector4、Quaternion、string、VRCUrl、Color 和 Color32。
 :::
 
-::: warning
-#### 数组同步
+::: warning 数组同步
 您可以同步以下类型的变量和变量数组：bool、char、byte、sbyte、short、ushort、int、uint、long、ulong、float、double、Vector2、Vector3、Vector4、Quaternion、string、VRCUrl、Color 和 Color32。
 :::
 
 ## 使用自定义事件
 
-::: info
-#### 使用一个事件来触发更改可以分为两步
+::: info 使用一个事件来触发更改大致可以分为两步
 1. 添加一个自定义事件节点
 2. 使用一个 SendCustomNetworkEvent 节点来在目标上（Target）触发这个事件
 :::
@@ -211,8 +206,7 @@ Udon Graph 里的变量（Variables）设置
     5. 保留默认的 "All（全部）"作为目标，以便在房间中的每个玩家身上触发该事件，或者将其更改为 "Owner（所有者）"，以便只在所有者身上触发该事件。
     6. 您可以将 "instance" 输入留空，以当前的 UdonBehaviour 为目标，或者将引用连接到另一个 UdonBehaviour，以在该 UdonBehaviour 上触发自定义事件。
 
-::: info
-#### 编辑器注意事项
+::: info 编辑器注意事项
 SendCustomNetworkEvent 将作为编辑器中的 "SendCustomEvent" 节点运行，以便进行一些基本测试。
 :::
 
@@ -229,8 +223,7 @@ SendCustomNetworkEvent 将作为编辑器中的 "SendCustomEvent" 节点运行�
 您可以在客户端使用 [右键] + [`] + [6] 以列表形式查看每个对象的一些信息：
 ![](/img/worlds/udon-networking-networking-debug.png)
 
-::: danger
-#### 已知问题
+::: danger 已知问题
 现有 SDK 存在这些问题：
 - 玩家加入实例时（译者注：就是触发 OnPlayerJoined 事件的时候） isInstanceOwner 返回 true（感谢 FSP 的反馈）：https://feedback.vrchat.com/udon-networking-update/p/unu-v5-isinstanceowner-returns-true-when-spawning
 - 在网络更新（OnDeserialization）期间传送玩家不会传送玩家的模型（Avatar）。目前要解决这个问题，可使用 SendCustomEventDelayedFrames 将传送延迟 1 帧。
