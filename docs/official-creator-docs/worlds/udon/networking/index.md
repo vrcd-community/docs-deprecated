@@ -9,7 +9,13 @@
 :::
 ## 总览：Udon 的网络系统是怎么工作的
 
-<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FMb6ZYBEhxiI%3Flist%3DPLe9XHNvXcouQjg5GULWGLj1tMzeythnQi&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DMb6ZYBEhxiI&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FMb6ZYBEhxiI%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube" width="690" height="380" scrolling="no" title="YouTube embed" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+::: details Youtube 源视频
+<iframe width="650" height="380" src="https://www.youtube-nocookie.com/embed/Mb6ZYBEhxiI?si=mcsfXwkM1qMYdkod" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+:::
+::: info
+BiliBili 搬运版本有 CC 字幕，受限于 BiliBili 平台限制，仅 BiliBili 网站或客户端可显示字幕。
+:::
+<iframe src="//player.bilibili.com/player.html?bvid=BV1Zj41127zo&page=1" width="690" height="380" scrolling="no" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 Udon 网络系统的三个主要概念分别为 **变量（Variables）**、**事件（Events）**和**所有者（Ownership）**
 
