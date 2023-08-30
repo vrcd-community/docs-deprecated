@@ -8,7 +8,7 @@ export default defineConfig({
   lang: 'zh-CN',
   themeConfig: {
     editLink: {
-      pattern: 'https://github.com/vrcd-community/docs/edit/main/:path',
+      pattern: 'https://github.com/vrcd-community/docs/edit/main/docs/:path',
       text: '为此页提供修改建议',
     },
 
