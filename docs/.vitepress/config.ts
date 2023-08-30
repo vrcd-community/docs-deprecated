@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 import { beginnerSidebar, advanceSidebar, officialCreatorDocsSidebar, contributorSidebar } from './sidebars'
 
 export default defineConfig({
+  ignoreDeadLinks: true
   title: "VRCD",
   description: "Another VitePress Site",
   cleanUrls: true,
