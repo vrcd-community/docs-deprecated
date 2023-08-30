@@ -5,7 +5,7 @@
 有多种方式下载 VRChat SDK。
 
 - 点击 [此处](https://vrchat.com/download/vcc) 下载 [VRChat Creator Companion](https://vcc.docs.vrchat.com/)。这是最简单的入门方法。Creator Companion 可自动为您安装 Unity Editor、Worlds SDK 和 Avatars SDK。
-- 或者，您也可以使用我们的[GitHub 上的模板项目](https://vcc.docs.vrchat.com/guides/using-project-template-repos)。如果您不使用 Creator Companion，还需要下载 [当前版本的 Unity](/sdk/current-unity-version)。我们强烈建议使用 Unity Hub 下载 Unity。
+- 或者，您也可以使用我们的[GitHub 上的模板项目](https://vcc.docs.vrchat.com/guides/using-project-template-repos)。如果您不使用 Creator Companion，还需要下载 [当前版本的 Unity](/official-creator-docs/sdk/current-unity-version)。我们强烈建议使用 Unity Hub 下载 Unity。
 
 ## Step 0 - 安装 Unity
 
@@ -15,7 +15,7 @@
 
 ## Step 1 - 创建项目
 
-对于我们的第一个项目，我们假定您正在为 Windows PC 构建内容。如果您想了解在 Quest 上为 VRChat 创建内容的过程，请查看 [为 Unity 配置 Quest 内容开发环境](/official-creator-docs/platforms/android/setting-up-unity-for-creating-quest-content)。
+对于我们的第一个项目，我们假定您正在为 Windows PC 构建内容。如果您想了解在 Quest 上为 VRChat 创建内容的过程，请查看 [为 Unity 配置 Quest 内容开发环境](https://creator.vrchat.com/platforms/android/setting-up-unity-for-creating-quest-content)。
 
 #### 一些小贴士
 
@@ -38,7 +38,7 @@
 
 项目打开后，检查标题栏，确保以 `PC, Mac & Linux Standalone <DX11>` 结尾。如果不是，请转到 `文件 > 生成设置...`，选择 `PC, Mac & Linux Standalone`，然后单击左下角的 `切换平台`。
 
-如果您要为 VRChat 的 Meta Quest 或 Android 版本构建内容，您也应该为 Android 构建内容。详情请查看我们的 [Android 文档](/official-creator-docs/platforms/android/)。
+如果您要为 VRChat 的 Meta Quest 或 Android 版本构建内容，您也应该为 Android 构建内容。详情请查看我们的 [Android 文档](https://creator.vrchat.com/platforms/android/)。
 
 ## 可选步骤 3 - 安装 SDK
 

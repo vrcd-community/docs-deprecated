@@ -25,8 +25,8 @@ VRChat 允许您创建和上传自定义化身！
 
 ## 准备工作
 
-- [安装并设置 VRChat 化身 SDK](/officaial-creator-docs/sdk)
-- [创建第一个化身](/officaial-creator-docs/avatars/creating-your-first-avatar)
+- [安装并设置 VRChat 化身 SDK](/official-creator-docs/sdk/)
+- [创建第一个化身](/official-creator-docs/avatars/creating-your-first-avatar)
 
 ## 了解概念
 
