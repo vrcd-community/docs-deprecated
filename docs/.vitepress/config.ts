@@ -8,7 +8,7 @@ export default defineConfig({
   lang: 'zh-CN',
   themeConfig: {
     editLink: {
-      pattern: 'https://github.com/vitejs/docs-cn/edit/main/:path',
+      pattern: 'https://github.com/vrcd-community/docs/edit/main/:path',
       text: '为此页提供修改建议',
     },
 
@@ -78,7 +78,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/vrcd-community/docs' }
     ]
   }
 })
