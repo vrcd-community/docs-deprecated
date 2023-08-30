@@ -14,10 +14,13 @@ hero:
       link: /beginner/
     - theme: alt
       text: 进阶教程
-      link: /official-creator-docs/
+      link: /beginner/
+    - theme: alt
+      text: 贡献文档
+      link: /contributor/
     - theme: alt
       text: 官方创作者文档翻译
-      link: /official-creator-docs/
+      link: /official-creator-docs/getting-started
 
 features:
   - title: 分级教程
