@@ -4,7 +4,7 @@ layout: home
 hero:
   name: VRCD
   text: "VR Chinese Developer"
-  tagline: Placeholder 文案
+  tagline: 中文虚拟现实开发者社区
   image:
     light: /vrcd.svg
     dark: /vrcd-dark.svg
@@ -20,11 +20,11 @@ hero:
       link: /official-creator-docs/
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 分级教程
+    details: 疯狂建设中！
+  - title: 网页反馈
+    details: 新建文件夹.jpg
+  - title: 活动登记
+    details: 咕咕咕
 ---
 
