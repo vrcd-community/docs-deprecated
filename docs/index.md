@@ -14,7 +14,7 @@ hero:
       link: /beginner/
     - theme: alt
       text: 进阶教程
-      link: /beginner/
+      link: /advance/
     - theme: alt
       text: 贡献文档
       link: /contributor/
