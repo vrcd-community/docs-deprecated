@@ -8,4 +8,4 @@
 | Bones                       | 骨骼         |
 | Visemes                     | 嘴型         |
 | Full Body Tracking (FBT)    | 全身追踪     |
-| Force Locomotion Animations | 被动运动动画 |
+| Force Locomotion Animations | 强制使用运动层动画 |
