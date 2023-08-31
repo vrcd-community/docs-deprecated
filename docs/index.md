@@ -31,3 +31,7 @@ features:
     details: 咕咕咕
 ---
 
+<form data-netlify="true" netlify-honeypot="bot-field" hidden>
+  <input type="url" required name="url" />
+  <inpu required name="content"></inpu>
+</form>
