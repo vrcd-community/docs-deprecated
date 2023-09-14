@@ -1,3 +1,7 @@
+---
+title: Creator Companion下载和使用手册
+---
+
 ![tag VRChat入门包](https://github.com/vrcd-community/docs/blob/main/docs/public/img/starter/tag%20VRChat-starter.png)  
 # Creator Companion下载和使用手册；
 ![tag vrcd](https://github.com/vrcd-community/docs/blob/main/docs/public/img/vrcd-img/tag-vrcd.png)  
