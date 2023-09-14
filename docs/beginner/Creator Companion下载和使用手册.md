@@ -2,12 +2,12 @@
 title: Creator Companion下载和使用手册
 ---
 
-![tag VRChat入门包](https://github.com/vrcd-community/docs/blob/main/docs/public/img/starter/tag%20VRChat-starter.png)  
+![tag VRChat入门包](/img/starter/tag%20VRChat-starter.png)  
 # Creator Companion下载和使用手册；
-![tag vrcd](https://github.com/vrcd-community/docs/blob/main/docs/public/img/vrcd-img/tag-vrcd.png)  
+![tag vrcd](/img/vrcd-img/tag-vrcd.png)  
 
 ### 前言//
-![CreatorCompanion](https://github.com/vrcd-community/docs/tree/main/docs/public/img/starter/creator-companion/CreatorCompanion.png)  
+![CreatorCompanion](/img/starter/creator-companion/CreatorCompanion.png)  
 Creator Companion（以下简称CC）是VRChat（以下简称VRC）官方推出的用于辅助开发者的开发软件，功能齐全，可以做到检测和替换SDK，实时更新等的多个功能，并且有着英文版的官网手册，开发工具，社区资源等等。
 
 从某种意义上来说，在VRC开发过程中CC是必不可少的工具，缺少这一工具可能会让工程开发变得十分困难，我们推荐您尽可能下载CC。
@@ -26,15 +26,15 @@ https://docs.vrchat.com/docs/setting-up-the-sdk
 
 请点击红框标注的Here安装Creator Companion。
 
-![cc 1](https://github.com/vrcd-community/docs/blob/main/docs/public/img/starter/creator-companion/cc%201.png)
+![cc 1](/img/starter/creator-companion/cc%201.png)
 
 在安装好CC后初次打开会看见这一个界面，点击中间的**Show Me Around**即可进入主界面。
 
-![cc 2](https://github.com/vrcd-community/docs/tree/main/docs/public/img/starter/creator-companion/cc%202.png)
+![cc 2](/img/starter/creator-companion/cc%202.png)
 
 首先，让我们简单了解一下CC界面（**仅限于VRCD-VRChat入门包涉及的内容/英文界面为例**）。
 
-![cc 3](https://github.com/vrcd-community/docs/tree/main/docs/public/img/starter/creator-companion/cc%203.png)
+![cc 3](/img/starter/creator-companion/cc%203.png)
 
 工程文件区域显示您基于CC所创建的所有项目文件，在框中标明了该项目的名字，储存位置，项目类型，以及管理项目的入口。
 
@@ -42,12 +42,12 @@ https://docs.vrchat.com/docs/setting-up-the-sdk
 
 登录您的VRChat账号，进入设置页面点击更新检测您的版本，请注意，在CC内插件的更新和导入需要依靠科学，请为自己搭建正确的网络环境。
 
-![cc 4](https://github.com/vrcd-community/docs/tree/main/docs/public/img/starter/creator-companion/cc%204.png)
+![cc 4](/img/starter/creator-companion/cc%204.png)
 
 ### 创建工程//
 回到主界面，在左侧栏中选择Projects，之后点击右上角的Create New Project.
 
-![cc 5](https://github.com/vrcd-community/docs/tree/main/docs/public/img/starter/creator-companion/cc%205.png)
+![cc 5](/img/starter/creator-companion/cc%205.png)
 
 在Select template下，有三个Unity工程模板选项：
 + **World Project是为制作世界提供的模板。**
@@ -59,28 +59,28 @@ https://docs.vrchat.com/docs/setting-up-the-sdk
 
 点击Create Project按钮进行工程创建，在短暂的等待后CC会为您创建工程并且自动安装相应的插件。
 
-![cc 6](https://github.com/vrcd-community/docs/tree/main/docs/public/img/starter/creator-companion/cc%206.png)
+![cc 6](/img/starter/creator-companion/cc%206.png)
 
 如果CC显示工程创建失败或您没有看见有任何工程被创建，您可以试着检查Unity Hub的许可证是否过期。
 
 创建好项目以后，您将看到如下的界面，在这里您将看到许多来自于社区与VRC官方的插件包，在大部分情况下保持默认设置足够您进行开发活动。
 在设置好后请点击右上角的Open Project打开项目（以World Project为例）。
 
-![cc 7](https://github.com/vrcd-community/docs/tree/main/docs/public/img/starter/creator-companion/cc%207.png)
+![cc 7](/img/starter/creator-companion/cc%207.png)
 
 如果您的项目是通过Unity Hub创建的，请点击Create New Project旁的下箭头展开，点击Add Existing Project，选择储存项目的文件夹。
 
-![cc 8](https://github.com/vrcd-community/docs/tree/main/docs/public/img/starter/creator-companion/cc%208.png)
+![cc 8](/img/starter/creator-companion/cc%208.png)
 
 ### 更新工程//
 您需要在制作项目时定期更新组件包，我们需要进入指定的管理项目页面去更新组件包。
 如果您的项目已经未更新许久，在您通过VCC打开项目时，VCC会自动帮您更新项目。
 
-![cc 9](https://github.com/vrcd-community/docs/tree/main/docs/public/img/starter/creator-companion/cc%209.png)
+![cc 9](/img/starter/creator-companion/cc%209.png)
 
 被标有绿色向上箭头的包便是需要更新的组件包，单击便可开始更新。
 
-![cc 10](https://github.com/vrcd-community/docs/tree/main/docs/public/img/starter/creator-companion/cc%2010.png)
+![cc 10](/img/starter/creator-companion/cc%2010.png)
 
 另外，由于VCC存在的各种不尽人意的网络连接与逻辑问题，我们建议您时常备份项目。
 
@@ -110,4 +110,4 @@ EasyQuestSwitch
 VRWorld Toolkit  
 AudioLink  
 
-![tag Creator Companion下载和使用手册](https://github.com/vrcd-community/docs/tree/main/docs/public/img/starter/creator-companion/tag%20Creator%20Companion下载和使用手册.png)
+![tag Creator Companion下载和使用手册](/img/starter/creator-companion/tag%20Creator%20Companion下载和使用手册.png)
