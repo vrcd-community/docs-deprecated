@@ -4,6 +4,7 @@ export function beginnerSidebar(): DefaultTheme.SidebarItem[] {
   return [
     { text: '新手引导', link: '/beginner/' },
     { text: '萌新入坑指南', link: '/beginner/getting-started' },
+    { text: 'Creator Companion下载和使用手册', link: '/beginner/Creator Companion下载和使用手册' },
     {
       text: '人话说明书', link: '/beginner/worlds/', collapsed: true, items: [
         { text: '世界', link: '/beginner/worlds/index' }
