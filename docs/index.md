@@ -4,7 +4,7 @@ layout: home
 hero:
   name: VRCD
   text: "VR Chinese Developer"
-  tagline: 中文虚拟现实开发者社区
+  tagline: 虚拟现实中文开发者社区
   image:
     light: /vrcd.svg
     dark: /vrcd-dark.svg
@@ -23,12 +23,12 @@ hero:
       link: /official-creator-docs/getting-started
 
 features:
-  - title: 分级教程
-    details: 疯狂建设中！
-  - title: 网页反馈
-    details: 新建文件夹.jpg
-  - title: 活动登记
-    details: 咕咕咕
+  - title: VRCD-玩家社区
+    details: QQ：750258838
+  - title: VRCD-创作者考核
+    details: QQ：399505058
+  - title: VRCD-社区频道
+    details: QQ频道：e23yy4yk4v
 ---
 
 <form name="feedback" data-netlify="true" netlify-honeypot="bot-field" hidden>
