@@ -45,7 +45,7 @@ VRChat SDK 使用户能够使用 Unity编辑器 为 VRChat 创建可互动的世
 
 ## 我什么时候才能在SDK中编写脚本？
 
-我们不允许在 VRChat 中进行完全的 C# 编程，[Udon](https://docs.vrchat.com/docs/getting-started-with-udon)，这是我们的全局脚本解决方案！
+我们不允许在 VRChat 中进行完全的 C# 编程，但您可以使用 [Udon](https://docs.vrchat.com/docs/getting-started-with-udon) ，这是我们的全局脚本解决方案！
 
 对于角色，您可以通过[形象3.0](https://docs.vrchat.com/docs/avatars-30)使用Unity的动画器。
 
