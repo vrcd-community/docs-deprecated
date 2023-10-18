@@ -31,10 +31,8 @@ SteamVR控制器绑定页面可能有点bug，所以确保在您选择绑定后�
 您也可以在SteamVR控制器绑定菜单中调整多种设置，包括抓取所需的力度。如果您觉得有些东西不对劲，也可以选择调整这些设置。如果您找到了自己喜欢的设置方案，您可以使用 SteamVR 将这些绑定方案共享给其他人！
 
 ![figure](../../.gitbook/assets/8d84f6f-chrome_2019-05-29_17-39-32.png)
-<figure><img src="../../.gitbook/assets/8d84f6f-chrome_2019-05-29_17-39-32.png" alt=""><figcaption><p>
-  
+
 *如果闭合您的小拇指/无名指/中指有点困难，您可以试着在握持绑定上的“保持力度（Force Hold）”和“释放力度（Force Release）”设置中将值调低。*
-</p></figcaption></figure>
 
 ## 自定义绑定说明
 
