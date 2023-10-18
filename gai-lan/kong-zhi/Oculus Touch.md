@@ -2,7 +2,8 @@
 
 ## 手势姿态图
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption><p>注意，这里的手势仅仅为未修改过的默认手势。</p></figcaption></figure>
+![figure](../../.gitbook/assets/image (22).png)
+
 
 手势名称    | 手势描述                             
 ----------- | -------------------------------------
