@@ -26,32 +26,31 @@
 
 ## 我要怎么进入我自己的世界？
 
-一旦您通过SDK创造并上传了自己的世界，您可以在菜单中的世界栏找到`Mine`标签。
+一旦您通过SDK创建并上传了自己的世界，您可以在世界菜单的 `Mine` 选项卡下找到您的世界。
 
 ## 我遇到了应用程序相关的问题。
 
-很遗憾听到这个消息！我们想要帮助您解决。请查看我们的[官方帮助页](https://help.vrchat.com/),看看是否能从那里找到解决方案。如果没有,请在[此处](https://help.vrchat.com/new)创建工单联系我们的支持团队。请确保您选择的是“SUP”类别。
+这真是场噩梦！我们当然想要帮助您解决相关问题。请查看我们的[官方帮助页](https://help.vrchat.com/),看看是否能从那里找到解决方案。如果没有,请在[此处](https://help.vrchat.com/new)创建工单联系我们的支持团队。请确保您选择的是“SUP”类别。
 
 ## SDK是个什么玩意？
 
-VRChat SDK 使用户能够使用 Unity编辑器 为 VRChat 创造世界和角色。Unity 提供的大多数工具在 VRChat 中都可以使用,包括照明、导航网格、粒子效果、动画等标准 Unity 功能。
+VRChat SDK 使用户能够使用 Unity编辑器 为 VRChat 创建可互动的世界和角色。Unity 提供的大多数工具在 VRChat 中都可以使用,包括照明、导航网格、粒子效果、动画等标准 Unity 功能。
 
-您可以通过[创作者工具(VCC)](https://vrchat.com/download/vcc)来安装SDK。
+您可以通过[ VRChat 创作者助手](https://vrchat.com/download/vcc)来安装 SDK 。
 
-{% hint style="danger" %}
-<mark style="color:red;">**Steam 账户**</mark>
+如果您想知道我们分别在形象和世界中允许使用什么组件，请查看[列入白名单的头像组件](https://docs.vrchat.com/docs/whitelisted-avatar-components)和[列入白名单的世界组件](https://docs.vrchat.com/docs/whitelisted-world-components)文档页面。
 
-您必须使用VRChat账户（既不是Steam账户也不是Oculus账户）来使用SDK。在[这里](https://vrchat.com/register)注册。
-{% endhint %}
+> **❗️Steam 账户**
+> 您必须使用 VRChat 账户（既不是Steam账户也不是Oculus账户）来使用SDK。点击[此处](https://vrchat.com/register)注册。
 
 ## 我什么时候才能在SDK中编写脚本？
 
-我们不允许在VRChat中进行完全的C#编程，但你可以选择使用Udon或者UdonSharp（U#）这个是我们在世界创作中编程的解决方案！
+我们不允许在 VRChat 中进行完全的 C# 编程，[Udon](https://docs.vrchat.com/docs/getting-started-with-udon)，这是我们的全局脚本解决方案！
 
-对于角色，您可以在3.0的角色系统使用Unity的动画器。
+对于角色，您可以通过[形象3.0](https://docs.vrchat.com/docs/avatars-30)使用Unity的动画器。
 
-## 我遇到了VRChat的问题！
+## 我在使用 VRChat 时遇到了问题！
 
-请您访问[help.vrchat.com](https://help.vrchat.com/)技术文档。
+请您访问[help.vrchat.com](https://help.vrchat.com/)，这是我们提供技术支持文档的地方。
 
-您也可以在[这里](https://vrch.at/support)联系VRChat官方支持团队
+您也可以在[此处](https://vrch.at/support)联系VRChat官方支持团队
