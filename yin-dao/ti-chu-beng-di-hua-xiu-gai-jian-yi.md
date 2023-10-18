@@ -10,26 +10,28 @@ VRChat 目前已翻译到了其他语言，但尚未本地化。也就是说我�
 > 📘⭐目前，我们只为登录屏幕、快速菜单和主菜单工具提示采用本地化建议。
 
 ## 加入社区！
-我们专门为 VRChat 本地化社区提供了一个 Discord 服务器。点击此处加入服务器！
+我们专门为 VRChat 本地化社区提供了一个 Discord 服务器。点击[此处](https://discord.gg/U2fzWPkfKc "此处")加入服务器！
 
 ## 注册 Crowdin
-1. 点击此链接注册 Crowdin 账户。可点击下一新页面上的注册按钮来创建账户。
+1. 点击[此链接](https://crowdin.com/project/vrchat-application/invite?h=bb57b789a39c353c3c401047afa228c41657827 "此链接")注册 Crowdin 账户。可点击下一新页面上的注册按钮来创建账户。
 > 🚧⭐ 注册时请使用您的 VRChat 用户名作为 Crowdin 用户名，也就是您登录 VRChat 时使用的账户名，而不是您的昵称。
-<figure><img src="../.gitbook/assets/yin-dao/3309f77-image5.png" alt=""><figcaption><p>
+<figure><img src="../.gitbook/assets/yin-dao/9d529da-image8.png" alt=""><figcaption><p>
 2. 通过您注册时使用的电子邮箱来验证账户。
 3. 在 Crowdin 上的 "关于我 "中添加您的VRChat 用户 ID。
 - 设置 > 简介 > 关于我
+<figure><img src="../.gitbook/assets/yin-dao/3309f77-image5.png" alt=""><figcaption><p>
 > 👍⭐这些步骤非常重要，因为它们有助于我们来认证最优秀的贡献者。
 
 ## 添加建议
 账户设置完成后，您就可以提出第一个本地化建议了！
 
 1. 在项目 > VRChat 应用程序 或主页上的项目选项卡下选择 VRChat 应用程序 。
-
+<figure><img src="../.gitbook/assets/yin-dao/ee5fe1b-image2.png" alt=""><figcaption><p>
 2. 选择您想提出建议的语言。
-
+<figure><img src="../.gitbook/assets/yin-dao/23ad820-image3.png" alt=""><figcaption><p>
 3. 单击 "全部翻译 "按钮。
-
+<figure><img src="../.gitbook/assets/yin-dao/bc6afb4-image1.png" alt=""><figcaption><p>
+  
 ## 添加建议
 Crowdin的翻译文本编辑器界面有四个分区：
 
@@ -38,16 +40,19 @@ Crowdin的翻译文本编辑器界面有四个分区：
 3. 置中靠下栏
 4. 右侧边栏
 
+<figure><img src="../.gitbook/assets/yin-dao/f68903e-image7.png" alt=""><figcaption><p>
+  
 #### 第 1 部分 - 左侧边栏
 在这里，您可以搜索 VRChat 快捷菜单和主菜单工具提示中当前可用的所有单词和短语，如 "形象 "或 "世界"。
 
 尝试找到没有打勾的字符串，这些字符串最需要翻译建议。
 
 任何带有绿色复选框的内容都已获得 VRChat 开发人员的批准，大概不需要进一步的翻译建议。
+<figure><img src="../.gitbook/assets/yin-dao/fcf8fa8-image6.png" alt=""><figcaption><p>
 
 #### 第 2 节 - 置中靠上栏
 在左侧边栏选择某个字符串后，其英文版本将出现在本窗口的该源字符串下。
-源字符串的下拉菜单可能会有一个说明，描述该字符串在 VRChat 中的位置。如果您不明白字符串所指的内容，请使用 **Request** 给开发人员留言。
+光标停留在**源字符串**上后，下拉菜单可能会有一个说明，描述该字符串在 VRChat 中的位置。如果您不明白字符串所指的内容，请使用 **Request** 给开发人员留言。
 
 本部分已包含一个翻译。要输入本地化建议，请删除翻译并输入您的建议。然后点击保存按钮。
 
