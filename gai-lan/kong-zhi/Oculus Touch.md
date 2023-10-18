@@ -2,7 +2,7 @@
 
 ## 手势姿态图
 
-![figure](../../.gitbook/assets/image (22).png)
+![figure](../../.gitbook/assets/image%20(22).png)
 
 
 手势名称    | 手势描述                             
