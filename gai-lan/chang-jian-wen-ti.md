@@ -53,4 +53,4 @@ VRChat SDK 使用户能够使用 Unity编辑器 为 VRChat 创建可互动的世
 
 请您访问[help.vrchat.com](https://help.vrchat.com/)，这是我们提供技术支持文档的地方。
 
-您也可以在[此处](https://vrch.at/support)联系VRChat官方支持团队
+您也可以在[此处](https://vrch.at/support)联系VRChat官方支持团队。
