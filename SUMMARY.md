@@ -22,4 +22,5 @@
 ## 引导
 
 * [两步身份验证](yin-dao/liang-bu-shen-fen-yan-zheng.md)
-* [Test](yin-dao/Test.md)
+* [提出本地化修改建议](yin-dao/ti-chu-beng-di-hua-xiu-gai-jian-yi.md)
+* [调整您的形象身高](yin-dao/tiao-zheng-xing-xiang-sheng-gao.)
