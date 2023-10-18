@@ -1,5 +1,5 @@
 ---
-description: 本指南由 星宿旅行社 X  翻译至VRChat官方文档
+description: 本指南由 星宿旅行社 X VRCD 翻译至VRChat官方文档
 ---
 
 # 欢迎来到VRChat
