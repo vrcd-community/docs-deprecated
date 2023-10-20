@@ -67,13 +67,13 @@ export default defineConfig({
       { text: '入门', link: '/beginner/' },
       { text: '进阶', link: '/advance/' },
       { text: '贡献', link: '/contributor/' },
-      { text: '官方创作者文档翻译', link: '/official-creator-docs/getting-started' }
+      { text: 'The VRChat Documentation Hub', link: '/docs.vrchat.com/' }
     ],
 
     sidebar: {
       "/beginner": beginnerSidebar(),
       "/advance": advanceSidebar(),
-      "/official-creator-docs": officialCreatorDocsSidebar(),
+      "/the VRChat Documentation Hub": officialCreatorDocsSidebar(),
       '/contributor': contributorSidebar()
     },
 
