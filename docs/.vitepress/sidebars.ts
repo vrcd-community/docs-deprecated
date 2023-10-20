@@ -113,7 +113,7 @@ export function theVRChatDocumentationHubSidebar(): DefaultTheme.SidebarItem[] {
               text: '行动菜单', link: '/docs.vrchat.com/OVERVIEW/contorls/action-menu.md',
             }
           ]
-        }
+        },
         { text: '额外选项', link: '/docs.vrchat.com/OVERVIEW/additional-options/index.md',
           items: [
             {
@@ -126,7 +126,7 @@ export function theVRChatDocumentationHubSidebar(): DefaultTheme.SidebarItem[] {
           ]
         }
       ]
-    }
+    },
     { text: '导航', link: '' ,
       items: [
         { text: '两步身份验证', link: '/docs.vrchat.com/GUIDES/setup-2fa.md' },
