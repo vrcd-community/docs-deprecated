@@ -102,7 +102,7 @@ export function theVRChatDocumentationHubSidebar(): DefaultTheme.SidebarItem[] {
         { text: '欢迎来到VRChat', link: '/docs.vrchat.com/OVERVIEW/welcome-to-vrchat.md' },
         { text: '准备开始', link: '/docs.vrchat.com/OVERVIEW/getting-started.md' },
         { text: '常见问题', link: '/docs.vrchat.com/OVERVIEW/frequently-asked-questions.md' },
-        { text: '控制', link: '/docs.vrchat.com/OVERVIEW/contorls/README.md',
+        { text: '控制', link: '/docs.vrchat.com/OVERVIEW/contorls/index.md',
           items: [
             {
               text: 'HTC Vive 手柄', link: '/docs.vrchat.com/OVERVIEW/contorls/vive.md',
@@ -114,7 +114,7 @@ export function theVRChatDocumentationHubSidebar(): DefaultTheme.SidebarItem[] {
             }
           ]
         }
-        { text: '额外选项', link: '/docs.vrchat.com/OVERVIEW/additional-options/README.md',
+        { text: '额外选项', link: '/docs.vrchat.com/OVERVIEW/additional-options/index.md',
           items: [
             {
               text: '手势切换', link: '/docs.vrchat.com/OVERVIEW/additional-options/gesture-toggle.md',
