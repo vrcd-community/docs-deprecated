@@ -41,11 +41,8 @@ VRChat SDK 使用户能够使用 Unity编辑器 为 VRChat 创建可互动的世
 如果您想知道我们分别在形象和世界中允许使用什么组件，请查看[列入白名单的头像组件](https://docs.vrchat.com/docs/whitelisted-avatar-components)和[列入白名单的世界组件](https://docs.vrchat.com/docs/whitelisted-world-components)文档页面。
 
 {% hint style="info" %}
-<mark style="color:red;">
+<mark style="color:red;">**Steam 账户**</mark>
 
-**Steam 账户**
-
-</mark>
 您必须使用 VRChat 账户（既不是Steam账户也不是Oculus账户）来使用SDK。点击[此处](https://vrchat.com/register)注册。
 {% endhint %}
 
