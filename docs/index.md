@@ -21,6 +21,9 @@ hero:
     - theme: alt
       text: 官方创作者文档翻译
       link: /official-creator-docs/getting-started
+    - theme: alt
+      text: VRChat汉化文档中心
+      link: /docs.vrchat.com/SUMMARY
 
 features:
   - title: VRCD-玩家社区
