@@ -94,3 +94,45 @@ export function officialCreatorDocsSidebar(): DefaultTheme.SidebarItem[] {
     }
   ]
 }
+
+export function theVRChatDocumentationHubSidebar(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: '概览', link: '' ,
+      items: [
+        { text: '欢迎来到VRChat', link: '/docs.vrchat.com/OVERVIEW/welcome-to-vrchat.md' },
+        { text: '准备开始', link: '/docs.vrchat.com/OVERVIEW/getting-started.md' },
+        { text: '常见问题', link: '/docs.vrchat.com/OVERVIEW/frequently-asked-questions.md' },
+        { text: '控制', link: '/docs.vrchat.com/OVERVIEW/contorls/README.md',
+          items: [
+            {
+              text: 'HTC Vive 手柄', link: '/docs.vrchat.com/OVERVIEW/contorls/vive.md',
+              text: 'Oculus Touch', link: '/docs.vrchat.com/OVERVIEW/contorls/touch.md',
+              text: 'Valve Index 控制器', link: '/docs.vrchat.com/OVERVIEW/contorls/valve-index.md',
+              text: '键盘与鼠标', link: '/docs.vrchat.com/OVERVIEW/keyboard-and-mouse.md',
+              text: '手柄控制器', link: '/docs.vrchat.com/OVERVIEW/contorls/gamepad.md',
+              text: '行动菜单', link: '/docs.vrchat.com/OVERVIEW/contorls/action-menu.md',
+            }
+          ]
+        }
+        { text: '额外选项', link: '/docs.vrchat.com/OVERVIEW/additional-options/README.md',
+          items: [
+            {
+              text: '手势切换', link: '/docs.vrchat.com/OVERVIEW/additional-options/gesture-toggle.md',
+              text: '启动选项', link: '/docs.vrchat.com/OVERVIEW/additional-options/launch-options.md',
+              text: '配置文件', link: '/docs.vrchat.com/OVERVIEW/additional-options/configuration-file.md',
+              text: 'VRChat图像性能选项', link: '/docs.vrchat.com/OVERVIEW/additional-options/vrchat-configuration-window.md',
+              text: 'VRChat 本地存储', link: '/docs.vrchat.com/OVERVIEW/additional-options/local-vrchat-storage.md',
+            }
+          ]
+        }
+      ]
+    }
+    { text: '导航', link: '' ,
+      items: [
+        { text: '两步身份验证', link: '/docs.vrchat.com/GUIDES/setup-2fa.md' },
+        { text: '提出本地化修改建议', link: '/docs.vrchat.com/GUIDES/suggesting-localization-changes.md' },
+        { text: '调整您的形象身高', link: '/docs.vrchat.com/GUIDES/adjusting-your-avatars-height.md' },
+      ]
+    }
+  ]
+}
