@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { beginnerSidebar, advanceSidebar, officialCreatorDocsSidebar, contributorSidebar } from './sidebars'
+import { beginnerSidebar, advanceSidebar, contributorSidebar, officialCreatorDocsSidebar, theVRChatDocumentationHubSidebar } from './sidebars'
 
 export default defineConfig({
   title: "VRCD",
@@ -67,18 +67,21 @@ export default defineConfig({
       { text: '入门', link: '/beginner/' },
       { text: '进阶', link: '/advance/' },
       { text: '贡献', link: '/contributor/' },
+      { text: '官方创作者文档翻译', link: '/official-creator-docs/' },
       { text: 'The VRChat Documentation Hub', link: '/docs.vrchat.com/' }
     ],
 
     sidebar: {
       "/beginner": beginnerSidebar(),
       "/advance": advanceSidebar(),
-      "/the VRChat Documentation Hub": officialCreatorDocsSidebar(),
-      '/contributor': contributorSidebar()
+      "/contributor": contributorSidebar(),
+      "/official-creator-docs": officialCreatorDocsSidebar(),
+      "/the VRChat Documentation Hub": theVRChatDocumentationHubSidebar()
     },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vrcd-community/docs' }
+      { icon: 'github', link: 'https://vrcd.org.cn' }
     ]
   }
 })
