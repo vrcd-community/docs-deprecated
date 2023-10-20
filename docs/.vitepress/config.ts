@@ -76,7 +76,7 @@ export default defineConfig({
       "/advance": advanceSidebar(),
       "/contributor": contributorSidebar(),
       "/official-creator-docs": officialCreatorDocsSidebar(),
-      "/the VRChat Documentation Hub": theVRChatDocumentationHubSidebar()
+      "/docs.vrchat.com": theVRChatDocumentationHubSidebar()
     },
 
     socialLinks: [

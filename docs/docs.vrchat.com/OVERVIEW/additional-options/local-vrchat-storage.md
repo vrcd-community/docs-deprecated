@@ -9,8 +9,8 @@ VRChat 在本地存储了许多不同的数据。这个并不太详尽的列表�
 文件夹/文件 名称 | 目的 | 注释 |
 -- | -- | --
 `output_log_HH-MM-SS.txt` | 包含应用程序运行时记录的信息。<br>还包含Udon调试输出。 | 时间戳表示客户端启动时的时间。<br>如果这些文件存在了超过24小时，VRChat启动时会自动将其删除。
-`config.json` | 配置文件，包含应用程序设置。 | 查看[配置文件](./Configuration%20File.md)文档以了解详细内容。
-`Cache-WindowsPlayer\` | 资源下载缓存。<br>下载的角色、世界、图片和其他资源存储在这里。 | 可以通过[配置文件](./Configuration%20File.md)重新配置存储位置，以便将文件夹移到更大容量的磁盘上。
+`config.json` | 配置文件，包含应用程序设置。 | 查看[配置文件](#)文档以了解详细内容。
+`Cache-WindowsPlayer\` | 资源下载缓存。<br>下载的角色、世界、图片和其他资源存储在这里。 | 可以通过[配置文件](#)重新配置存储位置，以便将文件夹移到更大容量的磁盘上。
 `Avatars\` | 本地测试角色。使用SDK“构建和测试（Build\&Test）”时,角色文件将会存储在这里
 `OSC\` | OSC设置存储。存储使用OSC in VRChat所需的数据。 | 即使你不使用OSC,这里也可能存在数据。
 `LocalAvatarData\` | 角色参数存储。存储已使用过的角色的参数。
@@ -19,7 +19,8 @@ VRChat 在本地存储了许多不同的数据。这个并不太详尽的列表�
 
 ### LocalPlayerModerations 文件格式
 
-```LocalPlayerModerations File Format
+LocalPlayerModerations File Format
+```
 /*
 *  Storage line format:
 *   <key><padding><value><newline>

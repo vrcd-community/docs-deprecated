@@ -8,15 +8,9 @@
 
 VRChat并不默认创建配置文件，您需要在 `%LocalAppdata%Low\VRChat\vrchat` 中手动创建配置文件。配置文件的名称必须为 `config.json` 且必须由合理的JSON结构组成。
 
-{% hint style="info" %}
-<mark style="color:blue;">
-
-**PC专有的特性**
-
-</mark>
-
+::: info PC专有的特性
 这些配置只能在PC上进行调整，而不能在 Quest 中调整。
-{% endhint %}
+:::
 
 配置文件的示例如下
 
@@ -80,21 +74,19 @@ VRChat并不默认创建配置文件，您需要在 `%LocalAppdata%Low\VRChat\vr
 `cache_size` | 缓存的最大大小，单位为 gigabytes （G）。 | 大于等于`20`
 `cache_expiry_delay` | 缓存的过期时间，单位为天。 | 大于等于`30`
 
-### [角色粒子系统限制](这里需要网址)
+### 角色粒子系统限制
 
-{% hint style="info" %}
-<mark style="color:blue;"></mark>
+:: info
 此系统在Quest中默认生效，且不能被禁用。
-{% endhint %}
+:::
 
 为了防止滥用和大量使用粒子影响性能,在角色上使用的粒子系统可以被限制。单击标题以查看描述此系统的文档页面。
 
-### [角色动态骨骼限制](这里需要网址)
+### 角色动态骨骼限制
 
-{% hint style="info" %}
-<mark style="color:yellow;"></mark>
+::: info
 由于我们已经将动态骨骼替换为物理骨骼，因此这不再是一个相关的设置。
-{% endhint %}
+:::
 
 动态骨骼是一个非常注重性能的组件，而角色作者很容易过度使用该组件。VRChat提供了一种方法，用户可以通过该方法限制形象上允许存在的动态骨骼数量。单击标题以查看描述此系统的文档页面。
 

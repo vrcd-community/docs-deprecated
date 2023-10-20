@@ -6,15 +6,9 @@ VRChat 目前已翻译到了其他语言，但尚未本地化。也就是说我�
 
 我们使用 Crowdin 获取本地化建议。目前支持的语言有法语:fr: 、德语:de: 、意大利语:it: 、日语:jp: 、韩语:kr: 和西班牙语:es: 。
 
-{% hint style="info" %}
-<mark style="color:blue;">
-
-**操作菜单**
-
-</mark>
-
+::: info 操作菜单
 目前，我们只为登录屏幕、快速菜单和主菜单工具提示采用本地化建议。
-{% endhint %}
+:::
 
 ## 加入社区！
 
@@ -24,11 +18,9 @@ VRChat 目前已翻译到了其他语言，但尚未本地化。也就是说我�
 
 1. 点击[此链接](https://crowdin.com/project/vrchat-application/invite?h=bb57b789a39c353c3c401047afa228c41657827)注册 Crowdin 账户。可点击下一新页面上的注册按钮来创建账户。
 
-{% hint style="info" %}
-<mark style="color:yellow;"></mark>
-
+::: info
 注册时请使用您的 VRChat 用户名作为 Crowdin 用户名，也就是您登录 VRChat 时使用的账户名，而不是您的昵称。
-{% endhint %}
+:::
 
 ![figure](../img/suggesting-localization-changes-1.png)
 
@@ -38,11 +30,9 @@ VRChat 目前已翻译到了其他语言，但尚未本地化。也就是说我�
 
 ![figure](../img/suggesting-localization-changes-2.png)
 
-{% hint style="info" %}
-<mark style="color:green;"></mark>
-
+::: info
 这些步骤非常重要，因为它们有助于我们来认证最优秀的贡献者。
-{% endhint %}
+:::
 
 ## 添加建议
 
