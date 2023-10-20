@@ -79,10 +79,10 @@ export default defineConfig({
       "/the VRChat Documentation Hub": theVRChatDocumentationHubSidebar()
     },
 
-    socialLinks: 
+    socialLinks: [
     
-      }{ icon: 'github', link: 'https://github.com/vrcd-community/docs' }
+      { icon: 'github', link: 'https://github.com/vrcd-community/docs'   }
       { icon: 'github', link: 'https://vrcd.org.cn' }
-    
+                 ]
   }
 })
