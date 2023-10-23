@@ -36,7 +36,7 @@
 
 ## 启用 OSC
 您可以在 "圆盘菜单 "的 "OSC">"启用 "下打开 OSC。
-enable-osc
+[![](https://github.com/vrcd-community/docs/blob/Pengpeng_edit/img/OSC-Overview-1.jpg)](https://github.com/vrcd-community/docs/blob/Pengpeng_edit/img/OSC-Overview-1.jpg)
 
 ## 测试 OSC
 查看 "[调试](https://docs.vrchat.com/docs/osc-debugging "调试")"页面，查看一些输入值是否与原来的输入信息相匹配。
