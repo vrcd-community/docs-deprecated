@@ -39,10 +39,13 @@ export function officialCreatorDocsSidebar(): DefaultTheme.SidebarItem[] {
       link: '/official-creator-docs/sdk/',
       collapsed: true,
       items: [
+        { text: '构建管线回调(Pipeline Callbacks)和接口(Interfaces)', link: '/official-creator-docs/sdk/build-pipeline-callbacks-and-interfaces' },
         { text: '当前支持的 Unity 版本', link: '/official-creator-docs/sdk/current-unity-version' },
         { text: '迁移到更新的 Unity 大版本', link: '/official-creator-docs/sdk/migrating-to-a-newer-minor-unity-version' },
+        { text: 'Public VRC API', link: '/official-creator-docs/sdk/public-sdk-api' },
         { text: 'SDK 疑难解答', link: '/official-creator-docs/sdk/sdk-troubleshooting' },
         { text: '升级 SDK', link: '/official-creator-docs/sdk/updating-the-sdk' }
+        { text: 'VRCPipelineManager', link: '/official-creator-docs/sdk/vrcpipelinemanager' },
       ]
     },
     {
