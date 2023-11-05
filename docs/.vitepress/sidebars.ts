@@ -44,7 +44,7 @@ export function officialCreatorDocsSidebar(): DefaultTheme.SidebarItem[] {
         { text: '迁移到更新的 Unity 大版本', link: '/official-creator-docs/sdk/migrating-to-a-newer-minor-unity-version' },
         { text: 'Public VRC API', link: '/official-creator-docs/sdk/public-sdk-api' },
         { text: 'SDK 疑难解答', link: '/official-creator-docs/sdk/sdk-troubleshooting' },
-        { text: '升级 SDK', link: '/official-creator-docs/sdk/updating-the-sdk' }
+        { text: '升级 SDK', link: '/official-creator-docs/sdk/updating-the-sdk' },
         { text: 'VRCPipelineManager', link: '/official-creator-docs/sdk/vrcpipelinemanager' },
       ]
     },
