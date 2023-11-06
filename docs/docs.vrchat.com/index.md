@@ -12,16 +12,17 @@ hero:
     - theme: brand
       text: VRChat 文档枢纽
       link: docs.vrchat.com/index
-    - theme: alt
+    - theme: brand
       text: VRChat 创作者文档
-      link: 
+      link: creators.vrchat.com/index
+    - theme: brand
+      text: UdonSharp
+      link: udonsharp.docs.vrchat.com/udonsharp
 features:
-  - title: 星宿悦游社
-    details: QQ：602802447
   - title: VRCD-玩家社区
     details: QQ：750258838
   - title: VRCD-创作者考核
     details: QQ：399505058
   - title: VRCD-社区频道
-    details: KOOK频道：55957314
+    details: QQ频道：e23yy4yk4v
 ---
