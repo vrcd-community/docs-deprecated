@@ -6,8 +6,7 @@ VRChat 目前已翻译到了其他语言，但尚未本地化。也就是说我�
 
 我们使用 Crowdin 获取本地化建议。目前支持的语言有法语:fr: 、德语:de: 、意大利语:it: 、日语:jp: 、韩语:kr: 和西班牙语:es: 。
 
-::: info 操作菜单
-目前，我们只为登录屏幕、快速菜单和主菜单工具提示采用本地化建议。
+::: tip 📘⭐目前，我们只为登录屏幕、快速菜单和主菜单工具提示采用本地化建议。
 :::
 
 ## 加入社区！
@@ -18,20 +17,18 @@ VRChat 目前已翻译到了其他语言，但尚未本地化。也就是说我�
 
 1. 点击[此链接](https://crowdin.com/project/vrchat-application/invite?h=bb57b789a39c353c3c401047afa228c41657827)注册 Crowdin 账户。可点击下一新页面上的注册按钮来创建账户。
 
-::: info
-注册时请使用您的 VRChat 用户名作为 Crowdin 用户名，也就是您登录 VRChat 时使用的账户名，而不是您的昵称。
+::: warning 🚧⭐注册时请使用您的 VRChat 用户名作为 Crowdin 用户名，也就是您登录 VRChat 时使用的账户名，而不是您的昵称。
 :::
 
-![figure](../img/suggesting-localization-changes-1.png)
+![img](../img/suggesting-localization-changes-1.png)
 
 2. 通过您注册时使用的电子邮箱来验证账户。
 3. 在 Crowdin 上的 "关于我 "中添加您的[VRChat 用户 ID](https://help.vrchat.com/hc/en-us/articles/4408181867027-Account-Names-and-Identifiers-Usernames-Display-Names-and-User-IDs-)。
 - 设置 > 简介 > 关于我
 
-![figure](../img/suggesting-localization-changes-2.png)
+![img](../img/suggesting-localization-changes-2.png)
 
-::: info
-这些步骤非常重要，因为它们有助于我们来认证最优秀的贡献者。
+::: info 👍⭐ 这些步骤非常重要，因为它们有助于我们来认证最优秀的贡献者。
 :::
 
 ## 添加建议
@@ -40,15 +37,15 @@ VRChat 目前已翻译到了其他语言，但尚未本地化。也就是说我�
 
 1. 在项目 > VRChat 应用程序 或主页上的项目选项卡下选择 VRChat 应用程序 。
 
-![figure](../img/suggesting-localization-changes-3.png)
+![img](../img/suggesting-localization-changes-3.png)
 
 2. 选择您想提出建议的语言。
 
-![figure](../img/suggesting-localization-changes-4.png)
+![img](../img/suggesting-localization-changes-4.png)
 
 3. 单击 "全部翻译 "按钮。
 
-![figure](../img/suggesting-localization-changes-5.png)
+![img](../img/suggesting-localization-changes-5.png)
   
 ## 添加建议
 
@@ -59,7 +56,7 @@ Crowdin的翻译文本编辑器界面有四个分区：
 3. 置中靠下栏
 4. 右侧边栏
 
-![figure](../img/suggesting-localization-changes-6.png)
+![img](../img/suggesting-localization-changes-6.png)
   
 #### 第 1 部分 - 左侧边栏
 
@@ -69,7 +66,7 @@ Crowdin的翻译文本编辑器界面有四个分区：
 
 任何带有绿色复选框的内容都已获得 VRChat 开发人员的批准，大概不需要进一步的翻译建议。
 
-![figure](../img/suggesting-localization-changes-7.png)
+![img](../img/suggesting-localization-changes-7.png)
 
 #### 第 2 节 - 置中靠上栏
 
