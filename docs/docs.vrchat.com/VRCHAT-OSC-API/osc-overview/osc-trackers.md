@@ -8,48 +8,54 @@ VRChat 现在支持通过 OSC 接收追踪器数据，以便与我们现有的�
 
 ## OSC 地址
 
-		/tracking/trackers/1/position
-		/tracking/trackers/1/rotation
-		/tracking/trackers/2/position
-		/tracking/trackers/2/rotation
-		/tracking/trackers/3/position
-		/tracking/trackers/3/rotation
-		/tracking/trackers/4/position
-		/tracking/trackers/4/rotation
-		/tracking/trackers/5/position
-		/tracking/trackers/5/rotation
-		/tracking/trackers/6/position
-		/tracking/trackers/6/rotation
-		/tracking/trackers/7/position
-		/tracking/trackers/7/rotation
-		/tracking/trackers/8/position
-		/tracking/trackers/8/rotation
-		/tracking/trackers/head/position
-		/tracking/trackers/head/rotation`
+```
+/tracking/trackers/1/position
+/tracking/trackers/1/rotation
+/tracking/trackers/2/position
+/tracking/trackers/2/rotation
+/tracking/trackers/3/position
+/tracking/trackers/3/rotation
+/tracking/trackers/4/position
+/tracking/trackers/4/rotation
+/tracking/trackers/5/position
+/tracking/trackers/5/rotation
+/tracking/trackers/6/position
+/tracking/trackers/6/rotation
+/tracking/trackers/7/position
+/tracking/trackers/7/rotation
+/tracking/trackers/8/position
+/tracking/trackers/8/rotation
+/tracking/trackers/head/position
+/tracking/trackers/head/rotation
+```
 
 每个地址接受 3 个浮点（X、Y、Z）形式的 Vector3 信息。这些地址是 OSC 追踪器的世界空间位置和欧拉角。
 
 目前最多支持 8 个追踪器：臀部、胸部、2 个脚部、2 个膝盖、2 个肘部（上臂）。
 
-> ####📘并不总是寄出全部 8 份最好！
+::: tip 📘并不总是寄出全部 8 份最好！
 例如，只发送脚部和臀部可能会获得更好的效果。当发送的追踪点较少时，VRChat 的 IK 可以更好地补偿任何追踪上的偏移差异。当您的追踪数据在绝对位置和旋转（无漂移）方面具有很高的精确度时，就应该开始发送更多的追踪点。
+:::
 
 您也可以额外选择发送 "头部 "地址，以帮助将发送端的应用程序的追踪空间与 VRChat 的追踪空间对齐（见下文）。
 
 ## 追踪空间
+
 我们假设追踪空间：
 
 - 一般来说，我们使用 Unity 的内置坐标系
 - y轴正方向，即 y+ 是向上
-- 缩放比例为: 1.0f =现实世界中 1 米。您的发送应用程序可能需要让用户输入他们在现实世界中的身高，来适应这一点。
+- 缩放比例为: 1.0f =现实世界中 1 米。您的发送应用程序可能需要让用户输入他们在现实世界中的身高，来适应这一点
 - 左手坐标系
 - 欧拉角以度为单位，内部使用时将按 Z、X、Y 的顺序应用，以生成四元数
+
 原则上，其运作方式应与我们现有的 SteamVR 追踪器的运作方式类似。由于任意追踪数据的输入会带来挑战，我们提供了新的功能来帮助数据对齐。
 
 ## 自动回正 OSC 追踪器
+
 这是一个新按钮，位于 VRC 快捷菜单"齿轮 "选项卡的动捕与 IK 部分。
 
-[![](https://github.com/vrcd-community/docs/blob/Pengpeng_edit/img/osc-trackers-1.png)](https://github.com/vrcd-community/docs/blob/Pengpeng_edit/img/osc-trackers-1.png)
+![img](../../img/osc-trackers-1.png)
 
 该按钮将找到 Y 轴上最低的两个追踪器，并将它们的中点对准 VRChat 中用户当前的头部位置。
 
@@ -59,8 +65,11 @@ VRChat 现在支持通过 OSC 接收追踪器数据，以便与我们现有的�
 
 ## 接收头部数据
 
-		/tracking/trackers/head/position
-		/tracking/trackers/head/rotation
+```
+/tracking/trackers/head/position
+/tracking/trackers/head/rotation
+```
+
 通过上述地址发送到 VRChat 的追踪数据可用作发送端应用程序和 VRChat 之间的对齐参考。整个 OSC 追踪空间将被移动，使 `/tracking/trackers/head/position` 与玩家虚拟形象的头部骨骼位置对齐（注意是在头部的根部，而不是眼睛的位置）。该位置将逐帧对齐，不会进行插值/平滑处理。
 
 发送到 `/tracking/trackers/head/rotation` 的数据将用于 yaw 角设欧拉角（0,0,0）代表自然居中前视方向。VRChat 的跟踪空间 yaw 角慢向所提供的旋转方向移动。
@@ -71,9 +80,10 @@ VRChat 现在支持通过 OSC 接收追踪器数据，以便与我们现有的�
 
 ## 追踪器型号
 
-[![](https://github.com/vrcd-community/docs/blob/Pengpeng_edit/img/osc-trackers-2.png)](https://github.com/vrcd-community/docs/blob/Pengpeng_edit/img/osc-trackers-2.png)
+![img](../../img/osc-trackers-2.png)
 
 在 VRC 快捷菜单的动捕与 IK 部分使用跟踪器显示模型设置时，如果您将模型设置为 "追踪器：系统"，即使在校准后模型也不会消失。这有助于调试。
 
 ## 代码示例
+
 您可以在这里看到一个[示例脚本](https://gist.github.com/vrchat-developer/129c1647667945158b14709f8d65d471 "示例脚本")，用于从 Unity 项目中发送追踪器数据。本示例脚本假定您在项目中使用的虚拟形象将通过其他方式应用姿势数据。然后，虚拟追踪器的变换将被父系化到项目的虚拟形象的适当骨骼上，并插入到示例脚本中。不过，这个脚本不能直接使用。例如，该虚拟形象模特的高度是硬编码的，必须进行适当设置。请仔细阅读代码，并只将其用于教学目的。这并不是一个功能齐全的解决方案，而是一个让你能够从 Unity 项目中发送 OSC 追踪器数据的起点。在虚拟形象模特上使用虚拟追踪器不是必需的，使用 Unity 也不是必需的。这只是向 VRChat 发送 OSC 追踪器数据的一个示例。
