@@ -1,18 +1,24 @@
 # VRChat图像性能选项
 
-> 已过时<br>
-> 下方的图片已全部过时。<br>
-> 这些设置在 VRChat 中仍然可用。您可以在主菜单的“设置”选项卡中找到它们。
+::: warning 🚧已过时
+下方的图片已全部过时。
+
+这些设置在 VRChat 中仍然可用。您可以在主菜单的“设置”选项卡中找到它们。
+:::
 
 在游玩VRChat时，您可以在安全菜单右上角的“性能选项”中调整图像设置。
 
+<center>
+
 ![img](../../img/vrchat-configuration-window-1.png)
+
+</center>
 
 ## 角色性能
 
-![img](../../img/vrchat-configuration-window-2.png)
-
 <center>
+
+![img](../../img/vrchat-configuration-window-2.png)
 
 *您可以在这里调整角色的性能选项*
 
@@ -32,15 +38,23 @@
 
 ## 动态骨骼
 
+<center>
+
 ![img](../../img/vrchat-configuration-window-3.png)
 
-此窗口允许您打开[形象动态骨骼限制](../../blank.md)系统。默认情况下，它处于打开状态。
+</center>
+
+此窗口允许您打开[形象动态骨骼限制](../../SYSTEM/avatar-dynamic-bone-limits.md)系统。默认情况下，它处于打开状态。
 
 此选项在 Quest 中不可用，因为 Quest 无法显示动态骨骼。
 
 ## 高级图像
 
+<center>
+
 ![img](../../img/vrchat-configuration-window-4.png)
+
+</center>
 
 “高级图像”窗口允许您调整“图像品质”设置以及“多重采样抗锯齿”设置。
 
@@ -69,9 +83,9 @@ Oculus Quest 2 被设置为 4x MSAA。
 
 ### 低品质（VRC Low）
 
-![img](../../img/vrchat-configuration-window-5.png)
-
 <center>
+
+![img](../../img/vrchat-configuration-window-5.png)
 
 *PC VR 中的低品质设置*
 
@@ -79,9 +93,9 @@ Oculus Quest 2 被设置为 4x MSAA。
 
 ### 中等品质（VRC Medium）
 
-![img](../../img/vrchat-configuration-window-6.png)
-
 <center>
+
+![img](../../img/vrchat-configuration-window-6.png)
 
 *PC VR 中的中等品质设置*
 
@@ -89,9 +103,9 @@ Oculus Quest 2 被设置为 4x MSAA。
 
 ### 高品质（VRC High）
 
-![img](../../img/vrchat-configuration-window-7.png)
-
 <center>
+
+![img](../../img/vrchat-configuration-window-7.png)
 
 *PC VR 中的高品质设置*
 
@@ -99,9 +113,9 @@ Oculus Quest 2 被设置为 4x MSAA。
 
 ### 极致品质（VRC Ultra）
 
-![img](../../img/vrchat-configuration-window-8.png)
-
 <center>
+
+![img](../../img/vrchat-configuration-window-8.png)
 
 *PC VR 中的极致品质设置*
 
@@ -111,9 +125,9 @@ Oculus Quest 2 被设置为 4x MSAA。
 
 Oculus Quest只有一个图形配置文件。如下所示。
 
-![img](../../img/vrchat-configuration-window-9.png)
-
 <center>
+
+![img](../../img/vrchat-configuration-window-9.png)
 
 *Quest 设置*
 

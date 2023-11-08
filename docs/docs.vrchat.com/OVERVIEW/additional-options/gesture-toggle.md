@@ -14,6 +14,6 @@
 
 ## Avatar 3.0
 
-启用时，您的手势[动画器参数](../../blank.md)会正常更新。
+启用时，您的手势[动画器参数](../../../creators.vrchat.com/avatars/animator-parameters.md)会正常更新。
 
-禁用时，无论您进行什么输入，您的手势[动画器参数](../../blank.md)都会“固定”在您禁用手势切换时的数值。
+禁用时，无论您进行什么输入，您的手势[动画器参数](../../../creators.vrchat.com/avatars/animator-parameters.md)都会“固定”在您禁用手势切换时的数值。
