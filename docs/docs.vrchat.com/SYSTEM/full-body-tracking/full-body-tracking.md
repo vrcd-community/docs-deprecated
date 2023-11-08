@@ -1,7 +1,7 @@
 # 全身追踪
 
-::: warning 🚧最近的变化！！
-VRChat IK 2.0最近发布了！这是对许多全身追踪相关系统的重大返工。此页面已根据反馈进行更新。但对全身追踪文档进一步的更改可能会根据需求随时进行。
+::: warning 🚧最近的更新！！
+VRChat IK 2.0 最近发布了！这是对许多全身追踪相关系统的重大重构。此页面已根据反馈进行更新。但对全身追踪文档进一步的更改可能会根据需求而随时进行。
 :::
 
 VRChat 支持使用 Lighthouse 生态系统追踪器（如 [HTC Vive Trackers](https://www.vive.com/us/vive-tracker/)，[Tundra Trackers](https://tundra-labs.com/) 和其他追踪器），以允许追踪身体上的这些区域：
