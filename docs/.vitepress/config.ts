@@ -6,6 +6,7 @@ export default defineConfig({
   description: "Another VitePress Site",
   cleanUrls: true,
   lang: 'zh-CN',
+  ignoreDeadLinks: true,
   themeConfig: {
     editLink: {
       pattern: 'https://github.com/vrcd-community/docs/edit/main/docs/:path',
