@@ -1,13 +1,13 @@
 # 在虚拟机中使用 VRChat
 
 ::: warning 🚧仅限进阶用户阅读！
-这些信息通常只对高阶用户有参考价值，特别是只对在虚拟机中运行 VRChat 的用户有用。其中包含的术语对大多数用户来说可能无法识别或无用。
+这些信息通常只对使用进阶内容的用户有参考价值，特别是只对在虚拟机中运行 VRChat 的用户有用。其中包含的术语对大多数用户来说可能无法识别或毫无用处。
 :::
 
 ::: danger ❗️VRChat 在虚拟机端的运行不受支持！
-**我们并不直接支持通过虚拟机使用 VRChat**，但我们还是做了一些研究，为那些选择尝试这么做的用户提供方便。<br>
-**本文档的存在并不意味着我们支持在虚拟机中运行 VRChat。**本文的方法或任何其他的方法都有可能随时失效。无论如何，我们都会努力保持本文档的更新。<br>
-如果您发现本文档已过时或需要编辑，请使用右上角的 "建议编辑 "链接。
+**我们并不直接支持通过虚拟机使用 VRChat** ，但我们还是做了一些研究，为那些选择尝试这么做的用户提供便利。<br>
+**本文档的存在并不意味着我们支持在虚拟机中运行 VRChat 。**本文的方法或任何其他的方法都有可能随时失效。无论如何，我们都会努力保持本文档的更新。<br>
+如果您发现本文档已过时或需要编辑，请使用右上角的 "建议编辑" 链接。
 :::
 
 在虚拟机环境中运行时，VRChat 的反作弊解决方案 Easy Anti-Cheat (EAC) 通常会失效。
@@ -16,7 +16,7 @@
 
 根据我们的观察，这些变通方法不会影响性能。
 
-### libvirt
+### Libvirt
 
 使用命令 `virsh edit VM_NAME` ，用您偏好的编辑器打开虚拟机的 XML 配置。然后只需在 `features > hyperv` 下添加以下一行即可：
 
@@ -47,9 +47,9 @@
 </hyperv>
 ```
 
-这将启用您的当前版本的内核/QEMU *所有* 可用的 **hyper-v enlightenments** 特性，包括供应商 ID，这也意味着 EAC 不会发病，但这个操作也会启用以前可能没有启用的其他功能，也就是说这很可能会 *提高* 您的性能！
+这将启用您的当前版本的内核/QEMU *所有* 可用的 **Hyper-V Enlightenments** 特性，包括供应商 ID，这也意味着 EAC 不会发病，但这个操作也会启用以前可能没有启用的其他功能，也就是说这很可能会 *提高* 您的性能！
 
-*“enlightenments” 是 hyper-v 对 "准虚拟化扩展 "的一种说法，即 linux 内核或 QEMU 为 windows 客户端提供的，用于增强虚拟环境中的性能或功能的接口，。
+* “Enlightenments” 是 Hyper-V 对 "准虚拟化扩展 "的一种说法，即 Linux 内核或 QEMU 为 Windows 客户端提供的，用于增强虚拟环境中的性能或功能的接口。
 
 2022 年 8 月 26 日之后，上述修复措施可能不足以让游戏继续运行（您仍应执行这些措施）。如果仍有问题，请尝试手动设置虚拟机的 SMBIOS 字符串。理论上，任何有效的硬件配置都可以正常工作，但最好的办法是通过 `dmidecode` 获取自己系统的主板信息。
 
@@ -82,7 +82,7 @@ dmidecode --type system`
   </sysinfo>
 ```
   
-对于 UUID 条目，您可以使用域 XML 顶部生成的虚拟机 UUID。域 XML 中的 UUID 和 `sysinfo` 中的 UUID 必须匹配，否则 libvirt 将发病。
+对于 UUID 条目，您可以使用域 XML 顶部生成的虚拟机 UUID。域 XML 中的 UUID 和 `sysinfo` 中的 UUID 必须匹配，否则 Libvirt 将会叛逆。
 
 此外，请将其添加到 `<os>` 组，以便使用这些新的系统参数：
 
@@ -98,7 +98,7 @@ dmidecode --type system`
 
 `-cpu` 参数中可能已经包含了其他内容，在这种情况下，只需在最后添加 `,hv-vendor-id=0123756792CD` 即可，如上图所示。上述推荐设置不仅能实现 Hyper-V 的要求，还能确保 CPU L2/L3 缓存拓扑等更高阶的方法也能正确传递。
 
-您在这里也可以使用 hyper-v 直通模式：
+您在这里也可以使用 Hyper-V 直通模式：
 
 ```
 -cpu host,migratable=off,hypervisor=on,invtsc=on,hv-time=on,hv-passthrough=on。
@@ -128,15 +128,15 @@ dmidecode --type system`
 
 ### 技术说明
 
-您可能会注意到，其中有些内容与过去臭名昭著的 "NVIDIA 代码 43 修复 "问题非常相似。这里唯一的区别是，隐藏 kvm 界面（`kvm=off` 或 `<kvm><hidden state='on'/></kvm>` ）根本不是必需的（但也无妨）。如果您以前曾使用此类指南（如[https://passthroughpo.st/apply-error-43-workaround/](https://passthroughpo.st/apply-error-43-workaround/ "https://passthroughpo.st/apply-error-43-workaround/")）设置过虚拟机，那么带有 EAC 的 VRC 对您来说应该是可以直接使用的。
+您可能会注意到，其中有些内容与过去臭名昭著的 "NVIDIA 代码 43 修复 "问题非常相似。这里唯一的区别是，隐藏 KVM 界面（`kvm=off` 或 `<kvm><hidden state='on'/></kvm>` ）根本不是必需的（但也无妨）。如果您以前曾使用此类指南（如[https://passthroughpo.st/apply-error-43-workaround/](https://passthroughpo.st/apply-error-43-workaround/ "https://passthroughpo.st/apply-error-43-workaround/")）设置过虚拟机，那么带有 EAC 的 VRC 对您来说应该是可以直接使用的。
 
-在技术层面上，hyper-v 供应商 id 的作用是将客户机 `cpuid` 信息的 `0x40000000` 设置为其所提供的任何信息。这里的默认值是 "Microsoft HV"，EAC 会直接拒绝这个值。使用 hyper-v 直通模式时，此处将变成 "Linux KVM Hv"，它仍然会显示为一个虚拟机，但 EAC 不会对此做出反应。
+在技术层面上，Hyper-V 供应商 ID 的作用是将客户机 `cpuid` 信息的 `0x40000000` 设置为其所提供的任何信息。这里的默认值是 "Microsoft HV"，EAC 会直接拒绝这个值。使用 Hyper-V 直通模式时，此处将变成 "Linux KVM HV"，它仍然会显示为一个虚拟机，但 EAC 不会对此做出反应。
 
 由于这不需要更改 `hypervisor` 标志，客户机（Windows NT）中的操作系统内核仍会将环境识别为虚拟机，并应用相应的性能增强措施。这也意味着客户机中的任务管理器会报告运行在虚拟机中。在 KVM 环境中测试 EAC 时，这不会有什么影响。
 
 ### *非常* 技术性的说明
 
-下面是一个小小的 windows c++ 程序，用于演示更改后的效果，代码为：
+下面是一个小小的 Windows C++ 程序，用于演示更改后的效果，代码为：
 
 ```cpp
 #include <iostream>
