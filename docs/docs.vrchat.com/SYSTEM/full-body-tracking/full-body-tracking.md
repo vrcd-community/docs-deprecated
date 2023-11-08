@@ -96,7 +96,7 @@ VRChat 支持使用 Lighthouse 生态系统追踪器（如 [HTC Vive Trackers](h
 
 **髋骨的底部应该在大腿骨的顶部之上**。髋关节应始终在腿骨顶部上方！不要移动得太远，否则您可能会遇到臀部在运动过程中向上“翻转”的问题。
 
-![img](../img/full-body-tracking-1.png)
+![img](../../img/full-body-tracking-1.png)
 
 <center>
 
@@ -112,7 +112,7 @@ VRChat 支持使用 Lighthouse 生态系统追踪器（如 [HTC Vive Trackers](h
 
 以下是您应该瞄准的一些示例：
 
-![img](../img/full-body-tracking-2.png)
+![img](../../img/full-body-tracking-2.png)
 
 <center>
 
@@ -120,7 +120,7 @@ VRChat 支持使用 Lighthouse 生态系统追踪器（如 [HTC Vive Trackers](h
 
 </center>
 
-![img](../img/full-body-tracking-3.png)
+![img](../../img/full-body-tracking-3.png)
 
 <center>
 
