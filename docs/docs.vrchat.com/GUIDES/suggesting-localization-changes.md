@@ -6,7 +6,7 @@ VRChat 目前已翻译到了其他语言，但尚未彻底本地化。也就是�
 
 我们使用 Crowdin 获取本地化建议。目前支持的语言有法语、德语、意大利语、日语、韩语、西班牙语、简体中文、繁体中文、葡萄牙语、希伯来语、波兰语、俄语、印尼语、以及 Toki Pona 。
 
-::: tip 📘⭐目前，我们只为登录界面、快速菜单和主菜单提示文本采用本地化建议。
+::: tip 📘⭐目前，我们只为登录界面、快捷菜单和主菜单提示文本采用本地化建议。
 :::
 
 ## 加入社区！
@@ -15,15 +15,15 @@ VRChat 目前已翻译到了其他语言，但尚未彻底本地化。也就是�
 
 ## 注册 Crowdin
 
-1. 点击[此链接](https://crowdin.com/project/vrchat-application/invite?h=bb57b789a39c353c3c401047afa228c41657827)注册 Crowdin 账户。可点击下一新页面上的注册按钮来创建账户。
+1. 点击[此链接](https://crowdin.com/project/vrchat-application/invite?h=bb57b789a39c353c3c401047afa228c41657827)注册 Crowdin 账户。可点击如下新页面上的注册按钮来创建账户。
 
-::: warning 🚧⭐注册时请使用您的 VRChat 用户名作为 Crowdin 用户名，也就是您登录 VRChat 时使用的账户名，而不是您的昵称。
+::: warning 🚧⭐注册时请使用您的 VRChat 用户名作为 Crowdin 用户名，也就是您登录 VRChat 时使用的用户名，而不是您的昵称。
 :::
 
 ![img](../img/suggesting-localization-changes-1.png)
 
 2. 通过您注册时使用的电子邮箱来验证账户。
-3. 在 Crowdin 上的 "关于我 "中添加您的[VRChat 用户 ID](https://help.vrchat.com/hc/en-us/articles/4408181867027-Account-Names-and-Identifiers-Usernames-Display-Names-and-User-IDs-)。
+3. 在 Crowdin 上的 "关于我 "中添加您的 [VRChat 用户 ID](https://help.vrchat.com/hc/en-us/articles/4408181867027-Account-Names-and-Identifiers-Usernames-Display-Names-and-User-IDs-)。
 - 设置 > 简介 > 关于我
 
 ![img](../img/suggesting-localization-changes-2.png)
@@ -60,9 +60,9 @@ Crowdin的翻译文本编辑器界面有四个分区：
   
 #### 第 1 部分 - 左侧边栏
 
-在这里，您可以搜索 VRChat 快捷菜单和主菜单工具提示中当前可用的所有单词和短语，如 "形象 "或 "世界"。
+在这里，您可以搜索 VRChat 快捷菜单和主菜单工具提示中当前可用的所有单词和短语，如 "Avatars" 或 "World" 。
 
-尝试找到没有打勾的字符串，这些字符串最需要翻译建议。
+尝试找到没有打勾的字符串，这些字符串最需要您的翻译建议。
 
 任何带有绿色复选框的内容都已获得 VRChat 开发人员的批准，大概不需要进一步的翻译建议。
 
@@ -89,7 +89,7 @@ Crowdin的翻译文本编辑器界面有四个分区：
 
 #### 如果我的 VRChat 用户名被 Crowdin 占用了怎么办？
 
-请务必在 Crowdin 的 "About Me"部分输入您的 VRChat 用户 ID，以便我们不会误认用户。
+请务必在 Crowdin 的 "About Me" 部分输入您的 VRChat 用户 ID，以便我们不会误认用户。
 
 #### 我没有看到某个单词/短语！
 
